@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		759104A621AB8A0F009A1B6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759104A521AB8A0F009A1B6C /* AppDelegate.swift */; };
-		759104A821AB8A0F009A1B6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759104A721AB8A0F009A1B6C /* ViewController.swift */; };
-		759104AB21AB8A0F009A1B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759104A921AB8A0F009A1B6C /* Main.storyboard */; };
 		759104AD21AB8A11009A1B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759104AC21AB8A11009A1B6C /* Assets.xcassets */; };
-		759104B021AB8A11009A1B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759104AE21AB8A11009A1B6C /* LaunchScreen.storyboard */; };
+		759104B821AB8A4A009A1B6C /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759104B721AB8A4A009A1B6C /* iPadStoryboard.storyboard */; };
+		759104BA21AB8AC3009A1B6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759104B921AB8AC3009A1B6C /* ViewController.swift */; };
+		759104BD21AB8ADF009A1B6C /* Warning Siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 759104BB21AB8ADF009A1B6C /* Warning Siren.mp3 */; };
+		759104BE21AB8ADF009A1B6C /* Air Horn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 759104BC21AB8ADF009A1B6C /* Air Horn.mp3 */; };
+		759104C021AEDD22009A1B6C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759104BF21AEDD22009A1B6C /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		759104A221AB8A0F009A1B6C /* StoppageforiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoppageforiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		759104A521AB8A0F009A1B6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		759104A721AB8A0F009A1B6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		759104AA21AB8A0F009A1B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		759104AC21AB8A11009A1B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		759104AF21AB8A11009A1B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		759104B121AB8A11009A1B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759104B721AB8A4A009A1B6C /* iPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPadStoryboard.storyboard; sourceTree = "<group>"; };
+		759104B921AB8AC3009A1B6C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../StoppageforiPhone/StoppageforiPhone/ViewController.swift; sourceTree = "<group>"; };
+		759104BB21AB8ADF009A1B6C /* Warning Siren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Warning Siren.mp3"; sourceTree = "<group>"; };
+		759104BC21AB8ADF009A1B6C /* Air Horn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Air Horn.mp3"; sourceTree = "<group>"; };
+		759104BF21AEDD22009A1B6C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				759104A521AB8A0F009A1B6C /* AppDelegate.swift */,
-				759104A721AB8A0F009A1B6C /* ViewController.swift */,
-				759104A921AB8A0F009A1B6C /* Main.storyboard */,
+				759104B921AB8AC3009A1B6C /* ViewController.swift */,
+				759104B721AB8A4A009A1B6C /* iPadStoryboard.storyboard */,
 				759104AC21AB8A11009A1B6C /* Assets.xcassets */,
-				759104AE21AB8A11009A1B6C /* LaunchScreen.storyboard */,
 				759104B121AB8A11009A1B6C /* Info.plist */,
+				759104BC21AB8ADF009A1B6C /* Air Horn.mp3 */,
+				759104BB21AB8ADF009A1B6C /* Warning Siren.mp3 */,
+				759104BF21AEDD22009A1B6C /* Launch Screen.storyboard */,
 			);
 			path = StoppageforiPad;
 			sourceTree = "<group>";
@@ -122,9 +128,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				759104B021AB8A11009A1B6C /* LaunchScreen.storyboard in Resources */,
 				759104AD21AB8A11009A1B6C /* Assets.xcassets in Resources */,
-				759104AB21AB8A0F009A1B6C /* Main.storyboard in Resources */,
+				759104BD21AB8ADF009A1B6C /* Warning Siren.mp3 in Resources */,
+				759104B821AB8A4A009A1B6C /* iPadStoryboard.storyboard in Resources */,
+				759104C021AEDD22009A1B6C /* Launch Screen.storyboard in Resources */,
+				759104BE21AB8ADF009A1B6C /* Air Horn.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				759104A821AB8A0F009A1B6C /* ViewController.swift in Sources */,
+				759104BA21AB8AC3009A1B6C /* ViewController.swift in Sources */,
 				759104A621AB8A0F009A1B6C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		759104A921AB8A0F009A1B6C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				759104AA21AB8A0F009A1B6C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		759104AE21AB8A11009A1B6C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				759104AF21AB8A11009A1B6C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		759104B221AB8A11009A1B6C /* Debug */ = {
@@ -285,14 +274,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F33K9P37S6;
 				INFOPLIST_FILE = StoppageforiPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MettleAdamantium.StoppageforiPad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamantiummettle.Stoppage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -303,14 +293,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F33K9P37S6;
 				INFOPLIST_FILE = StoppageforiPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MettleAdamantium.StoppageforiPad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamantiummettle.Stoppage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
